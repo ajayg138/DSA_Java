@@ -1,11 +1,18 @@
+
+import java.util.Arrays;
+
 public class TwoDArray{
 
 public static void print2D(int mat[][]){
-    for(int i=0;i<mat.length;i++){
+    // for(int i=0;i<mat.length;i++){
 
-        for(int j=0;j<mat[i].length;j++){
-            System.out.print(mat[i][j]+" ");
-        }
+    //     for(int j=0;j<mat[i].length;j++){
+    //         System.out.print(mat[i][j]+" ");
+    //     }
+    // }
+
+    for(int[] row:mat){
+        System.out.println(Arrays.toString(row));
     }
 }
 
