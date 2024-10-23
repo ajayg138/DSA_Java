@@ -18,4 +18,8 @@ public class RemoveDuplicates{
 
         int res=count(arr);
         System.out.println("Number of unique elements present in array: "+res);
+
+        for(int i=0;i<res;i++){
+            System.out.print(arr[i]+((i<res-1)? ",":""));
+        }
     }}
