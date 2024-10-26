@@ -13,7 +13,7 @@ public class SCP{
 
 //Store in SCP
         String s3="Amit";
-        String s4="Amit";
+        String s4="amit";
         System.out.println(s3==s4);
 
 
@@ -46,5 +46,10 @@ public class SCP{
          System.out.println(s9.length());
 
          System.out.println(s3.equals(s4));
+          System.out.println(s3.equalsIgnoreCase(s4));
+
+        String str="A";
+        String str1="a";
+        System.out.println(str.compareTo(str1));
     }
 }
