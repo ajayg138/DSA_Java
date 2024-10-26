@@ -72,7 +72,51 @@ public class SCP{
         System.out.println(strr.substring(3));
 
 
+        String s="This Java was Good...";
+        System.out.println(s.replace("was","is"));
+        System.out.println(s.replaceFirst("a","A"));
 
+
+        System.out.println(s.replaceAll("\\s",""));
+        System.out.println(s.replaceAll("is(.)",""));
+
+        System.out.println(s.indexOf("w"));
+        System.out.println(s.indexOf("Th"));
+        System.out.println(s.lastIndexOf("i"));
+        System.out.println(s.charAt(5));
+        System.out.println(s.contains("w"));
+        System.out.println(s.startsWith("T"));
+        System.out.println(s.endsWith("T"));
+
+        System.out.println(s.toUpperCase());
+        System.out.println(s.toLowerCase());
+
+
+
+        int a=10;
+        String ss=String.valueOf(a);
+        System.out.println(ss);
+        System.out.println(ss+10);
+
+        char[] crt=s.toCharArray();
+        System.out.println(crt);
+
+        // StringBuffer sb=new StringBuffer("Ajay");
+        // StringBuffer sb=new StringBuffer(100);
+        StringBuffer sb=new StringBuffer();
+        System.out.println(sb.capacity());
+
+        sb.append("Ajay Gole");
+        System.out.println(sb.capacity());
+
+        sb.append("Ajay Ramchandra Gole");
+        System.out.println(sb.capacity());
+
+        sb.append("Ajay Ramchandra Gole Pune Ajay Ramchandra Gole Pune");
+        // System.out.println(sb.length());
+        System.out.println(sb.capacity());
+
+        System.out.println(sb);
 
     
     }
