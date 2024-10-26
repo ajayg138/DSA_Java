@@ -17,6 +17,7 @@ public class SCP{
         System.out.println(s3==s4);
 
 
+
         String s5=new String();
         System.out.println(s5.length());
         System.out.println(s5);
@@ -43,5 +44,7 @@ public class SCP{
 
          String s9=new String("     ");
          System.out.println(s9.length());
+
+         System.out.println(s3.equals(s4));
     }
 }
