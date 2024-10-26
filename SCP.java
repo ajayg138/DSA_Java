@@ -51,5 +51,29 @@ public class SCP{
         String str="A";
         String str1="a";
         System.out.println(str.compareTo(str1));
+
+
+        String str3="Ajay";
+        String str4="Gole";
+
+        System.out.println(str3+str4);
+        System.out.println(str3+str4+10);
+        System.out.println(str3+str4+10+10);
+        System.out.println(10+10+str3+str4);
+        System.out.println(10+str3+10+str4);
+        System.out.println(str3+str4+1000/200);
+        // System.out.print(str3+str4+10-4);
+        System.out.println(String.join("--",str3,str4));
+        System.out.println(String.join("/",str3,str4));
+
+
+        String strr="yyyAjay Golezzz";
+        System.out.println(strr.subSequence(3,12));
+        System.out.println(strr.substring(3));
+
+
+
+
+    
     }
 }
