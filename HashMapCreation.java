@@ -20,7 +20,7 @@ public class HashMapCreation{
     // System.out.println("Hello");
     System.out.println(hm.get("John")); 
     hm.remove("Pravin");
-    
+    System.out.println(hm.containsKey("Jim")); 
 }
 }
 
