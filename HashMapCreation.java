@@ -10,7 +10,9 @@ public class HashMapCreation{
         hm.put(4,"Amol");
         hm.put(5,"Nagesh");
         hm.put(6,"Roshan");
-        hm.put(7,"Chetan");
+        hm.put(7,"Chetannnn");
+        hm.put(7,"Chetann");
+        hm.put(7,"Chetannn");
 
 
         System.out.print(hm);
