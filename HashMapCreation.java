@@ -19,6 +19,7 @@ public class HashMapCreation{
     
     // System.out.println("Hello");
     System.out.println(hm.get("John")); 
+    hm.remove("Pravin");
     
 }
 }
