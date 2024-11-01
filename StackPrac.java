@@ -26,6 +26,11 @@ public class StackPrac{
                 System.out.print(st.peak());
                         System.out.print(st.size());
 
+                        st.pop();
+                        st.pop();
+                        st.pop();
+        System.out.print(st);
+
 
     }
 }
