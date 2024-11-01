@@ -30,6 +30,7 @@ public class StackPrac{
                         st.pop();
                         st.pop();
         System.out.print(st);
+                        System.out.print(st.size());
 
 
     }
