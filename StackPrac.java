@@ -11,5 +11,7 @@ public class StackPrac{
         st.push(30);
         st.push(40);
         System.out.print(st);
+        st.pop();
+        System.out.print(st);
     }
 }
